@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1079001068297",
+    "firebase_url": "https://maps-2019-2f343.firebaseio.com",
+    "project_id": "maps-2019-2f343",
+    "storage_bucket": "maps-2019-2f343.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079001068297:android:b21e9233577281d0",
+        "android_client_info": {
+          "package_name": "com.example.alex.audiogid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079001068297-74gvp1kb72godcodi5h1h9bdbqf2q0n5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alex.audiogid",
+            "certificate_hash": "dd6d6b14be56c2d70c49cedfe22237d158a180fd"
+          }
+        },
+        {
+          "client_id": "1079001068297-oo7tdt55558pv58uk6krefs96cj94tgk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB9PFRL23z4pH-Yr3Pv8K4YzXvh3rGvSA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079001068297-oo7tdt55558pv58uk6krefs96cj94tgk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

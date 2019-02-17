@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#0097A7</color>
+    <color name="colorPrimaryDark">#00838F</color>
+    <color name="mainBackground">#e2e2e2</color>
+    <color name="colorWhite">#e2e2e2</color>
+    <color name="colorBlack">#191919</color>
+    <color name="colorCardMainActivity">#ba000000</color>
+    <color name="RecyclerItemNoPick">#00ffffff</color>
+    <color name="RecyclerItemPick">#fdffffff</color>
+    <color name="RecyclerBacground">#fd79d433</color>
+    <color name="RecyclerItemCardBackground">#fd3e3e3e</color>
+<color name="ss">#000000</color>
+    <color name="blue">#348af7</color>
+    <color name="colorHotel">#84DBFF</color>
+    <color name="temperature_background">@color/blue</color>
+    <color name="temperature_text">@android:color/white</color>
+    <color name="green_dot_big">@color/blue</color>
+    <color name="green_dot_small">@color/blue</color>
+</resources>

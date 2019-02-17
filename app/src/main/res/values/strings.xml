@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">AudioGid</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="view_navigation_open">Open</string>
+    <string name="view_navigation_close">Close</string>
+    <string name="signed_in_fmt">ss</string>
+    <string name="open_panel">Open The Panel</string>
+    <string name="close_panel">Close The Panel</string>
+
+    <string name="spec_link">Design Guideline</string>
+
+    <string name="title_sheet">To Sheet</string>
+    <string name="title_toolbar">To Toolbar</string>
+    <string name="title_player">To Player</string>
+    <string name="text1">The museum is housed in the Louvre Palace, originally built as a fortress in the late 12th century…</string>
+    <string name="text2">Gwanghwamun is the main and largest gate of Gyeongbokgung Palace, in Jongno-gu, Seoul, South Korea.</string>
+    <string name="text3">Tower Bridge is a combined bascule and suspension bridge in London built in 1886–1894.</string>
+    <string name="text4">The Temple of Heaven is an imperial complex of religious buildings situated in the southeastern part…</string>
+    <string name="text5">The Aegean Islands are within the sea and some bound it on its southern periphery…</string>
+    <string name="description_sheet">Transform to Sheet</string>
+    <string name="description_toolbar">Transform to Toolbar</string>
+    <string name="description_player">Transform to Player</string>
+
+    <string-array name="query_suggestions">
+        <item>Android</item>
+        <item>iOS</item>
+        <item>SCALA</item>
+        <item>Ruby</item>
+        <item>JavaScript</item>
+    </string-array>
+
+    <string name="search_city">Search City</string>
+    <string name="search_place">Search</string>
+    <string name="wifi">Wifi</string>
+    <string name="cancel">Cancel</string>
+    <string name="noInternet_title">No Internet Connection</string>
+    <string name="noInternetmsg">Please connect the Internet</string>
+    <string name="mobile_data">Mobile data</string>
+    <string name="noInternet_msg">Please turn ON and try again</string>
+    <string name="place">Place</string>
+    <string name="city">City</string>
+
+
+
+    <string name="activity_transition_mills">200</string>
+</resources>

@@ -1,0 +1,219 @@
+//noinspection GradleCompatible
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.example.alex.audiogid"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'me.immortalz:transitionhelper:2.3.4'
+    implementation 'com.r0adkll:slidableactivity:2.0.6'
+    implementation 'cat.ereza:customactivityoncrash:2.2.0'
+    implementation 'com.gyf.immersionbar:immersionbar:2.3.3-beta15'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    //SearchView
+   implementation 'com.github.arimorty:floatingsearchview:2.1.1'
+
+
+
+
+    implementation 'com.google.android.gms:play-services-places:16.0.0'
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    implementation 'com.google.android.gms:play-services-auth:16.0.1'
+    //firebase
+    implementation 'com.google.firebase:firebase-auth:16.1.0'
+    implementation 'com.google.firebase:firebase-core:16.0.7'
+    implementation 'com.google.firebase:firebase-database:16.0.6'
+    implementation 'com.google.firebase:firebase-storage:16.0.5'
+
+    implementation group: 'com.google.android.libraries.places', name: 'places', version: '1.0.0'
+//Location
+
+
+
+
+
+implementation 'com.github.renaudcerrato:FloatingSearchView:1.0.1'
+    implementation 'com.nikoyuwono:toolbar-panel:0.1.1'
+    implementation 'com.miguelcatalan:materialsearchview:1.4.0'
+    implementation 'com.github.prolificinteractive:material-calendarview:2.0.1'
+    //noinspection GradleDependency,GradleDynamicVersion
+    implementation 'com.ramotion.cardslider:card-slider:0.3.0'
+    implementation 'com.patrickpissurno:ripple-effect:1.3.1'
+    //noinspection GradleDependency
+    implementation 'com.google.maps.android:android-maps-utils:0.3+'
+
+    implementation 'org.slf4j:slf4j-nop:1.7.25'
+    implementation 'com.skyfishjy.ripplebackground:library:1.0.1'
+    implementation 'com.akexorcist:googledirectionlibrary:1.1.1'
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+    implementation 'com.squareup.retrofit:retrofit:1.7.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.ramotion.circlemenu:circle-menu:0.3.1'
+    implementation 'com.ramotion.navigationtoolbar:navigation-toolbar:0.1.0'
+    implementation 'com.ramotion.cardslider:card-slider:0.3.0'
+    implementation 'com.github.florent37:awesomebar:1.0.3'
+    implementation 'com.cocosw:undobar:1.8.1@aar'
+    implementation 'com.ramotion.foldingcell:folding-cell:1.2.2'
+    implementation 'com.github.prolificinteractive:material-calendarview:2.0.1'
+    implementation 'com.github.florent37:materialviewpager:1.2.3'
+    implementation 'com.github.arimorty:floatingsearchview:2.1.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.github.armcha:SpaceNavigationView:1.6.0'
+    implementation 'com.mxn.soul:flowingdrawer-core:2.0.0'
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.google.android.gms:play-services-auth:16.0.1'
+//dependencies
+    implementation 'konifar:fab-transformation:1.0.0'
+    implementation 'com.github.markushi:circlebutton:1.1'
+    implementation 'com.google.firebase:firebase-core:16.0.7'
+    implementation 'com.flaviofaria:kenburnsview:1.0.7'
+    implementation 'com.jpardogo.materialtabstrip:library:1.1.0'
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.google.maps:google-maps-services:0.2.4'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+    implementation 'com.github.AnthonyFermin:DropDownView:1.0.1'
+
+    implementation 'br.com.liveo:navigationdrawer-material:2.5.1'
+
+    //DataBAse
+        //DBFLOW
+    implementation "com.github.Raizlabs.DBFlow:dbflow-core:4.0.3"
+    implementation "com.github.Raizlabs.DBFlow:dbflow:4.0.3"
+    testImplementation 'junit:junit:4.12'
+//IMAGEVIEW
+    implementation 'com.dingmouren.paletteimageview:paletteimageview:1.0.7'
+    implementation 'com.yinglan.shadowimageview:shadowimageview:1.0.4'
+    implementation 'com.github.florent37:arclayout:1.0.3'
+
+//Blure
+    implementation 'jp.wasabeef:blurry:3.0.0'
+implementation 'com.github.jgabrielfreitas:BlurImageView:1.0.1'
+
+//Menu
+    implementation 'com.oguzdev:CircularFloatingActionMenu:1.0.2'
+
+//Time Line
+    implementation 'com.vivian.widgets:TimeLineItemDecoration:1.5'
+
+//LineChart
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0-alpha'
+    implementation 'com.github.brianPlummer:tinydancer:0.1.2'
+
+//Permissions
+    implementation 'com.karumi:dexter:5.0.0'
+//
+////Text Views
+    implementation  'com.github.elevenetc:textsurface:0.9.1'
+implementation  'com.sdsmdg.harjot:rotatingtext:1.0.2'
+
+    //Animation
+implementation 'com.wang.avi:library:2.1.3'
+implementation 'com.github.jorgecastilloprz:fillableloaders:1.03@aar'
+    implementation 'com.github.glomadrian:roadrunner:1.0@aar'
+
+
+
+//DropMenu
+    implementation 'com.flipboard:bottomsheet-core:1.5.3'
+    implementation 'com.flipboard:bottomsheet-commons:1.5.3'
+implementation 'com.github.AnthonyFermin:DropDownView:1.0.1'
+
+
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    //Google GSON
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+
+
+    implementation 'com.eftimoff:android-pathview:1.0.8@aar'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.patrickpissurno:ripple-effect:1.3.1'
+    implementation 'org.osmdroid:osmdroid-android:6.0.2'
+
+    // For Open street map
+    implementation 'org.osmdroid:osmdroid-android:6.0.2'
+    implementation 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar'
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+    implementation 'com.miguelcatalan:materialsearchview:1.4.0'
+    implementation 'com.github.dmytrodanylyk.android-process-button:library:1.0.4'
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
+    implementation 'com.github.juanlabrador:badgecounter:1.0.2@aar'
+    // Cloudinary : For profile photo upload
+    implementation 'com.cloudinary:cloudinary-android:1.24.0'
+    // Zxing : creating qr code
+    implementation 'com.google.zxing:core:3.2.1'
+    implementation 'com.journeyapps:zxing-android-embedded:3.4.0'
+    // Lottie : animations
+    implementation 'com.airbnb.android:lottie:2.7.0'
+
+    // To show what's new in the application
+    implementation 'io.github.tonnyl:whatsnew:0.1.1'
+    //To display search dialog
+    implementation 'com.github.mirrajabi:search-dialog:1.2.2'
+    // RxJava
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    implementation 'io.reactivex.rxjava2:rxjava:2.x.x'
+    implementation 'android.arch.persistence.room:rxjava2:1.1.1'
+    //Lifecycle Components
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    implementation 'android.arch.lifecycle:viewmodel:1.1.1'
+    //Spotlight
+    implementation 'com.github.takusemba:spotlight:1.6.1'
+
+    //Image Crop
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.7.0'
+    //otp pin view
+    implementation 'com.github.mukeshsolanki:android-otpview-pinview:2.0.0'
+    //Timeline View
+    implementation 'com.github.vipulasri:timelineview:1.0.6'
+
+
+    //Buttons
+
+
+
+    //Graph view
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.google.firebase:firebase-database:16.0.5'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+
+
+    implementation 'com.squareup.retrofit:retrofit:1.6.1'
+    implementation 'com.squareup.okhttp:okhttp-urlconnection:2.0.0'
+    implementation 'com.squareup.okhttp:okhttp:2.0.0'
+    implementation 'com.squareup.okio:okio:1.0.1'
+
+}
+apply plugin: 'com.google.gms.google-services'

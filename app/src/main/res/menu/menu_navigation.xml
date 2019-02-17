@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group >
+    <item
+        android:checkable="true"
+        android:id="@+id/MyRouds"
+        android:icon="@drawable/icons8_gps_filled_500"
+        android:orderInCategory="1"
+        android:title="Мои Маршруты"
+     />
+    </group>
+    <group>
+    <item
+        android:checkable="true"
+        android:id="@+id/MyCalendars"
+        android:icon="@drawable/icons8_schedule_100"
+        android:orderInCategory="1"
+        android:title="Мой Календарь"
+        />
+    </group>
+    <group>
+    <item
+        android:checkable="true"
+        android:id="@+id/MyPurse"
+        android:icon="@drawable/icons8_money_bag_100"
+        android:orderInCategory="1"
+        android:title="Мой кошелек"
+        />
+    </group>
+    <group>
+    <item
+        android:checkable="true"
+        android:id="@+id/MyStatistic"
+        android:icon="@drawable/icons8_statistics_100"
+        android:orderInCategory="1"
+        android:title="Моя Статистика"
+        />
+    </group>
+    <group>
+    <item
+        android:id="@+id/BestPlaces"
+        android:icon="@drawable/icons8_trophy_100"
+        android:orderInCategory="1"
+        android:title="Лучшие Места"
+        />
+    </group>
+</menu>
